@@ -2,6 +2,7 @@
 import {createTransport} from "nodemailer"
 import dotenv from 'dotenv'
 dotenv.config();
+//uhf ydgddjbfygfghf
 
 const sendMail = async(email, subject, data)=>{
     const transport = createTransport({
